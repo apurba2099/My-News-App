@@ -182,110 +182,40 @@ main {
   margin-block: 12px;
 }
 
-/* Media Queries */
-/* For Large Tablets and Small Laptops */
-/* @media screen and (max-width: 1200px) {
-  .container {
-    max-width: 960px;
-  }
+/* Footer  */
+.personal-footer {
+  color: #ecf0f1;
+  text-align: center;
+  padding: 20px 10px;
+  background: rgba(255, 255, 255, 0.45);
+  box-shadow: 0 8px 18px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
 
-  .cards-container {
-    justify-content: center;
-    gap: 20px;
-  }
+.personal-footer a {
+  color: var(--primary-text-color);
+  text-decoration: none;
+  font-weight: bold;
+}
 
-  main {
-    margin: 88px 40px;
-  }
-} */
+.personal-footer a:hover {
+  font-family: sys;
+  text-decoration: underline;
+  cursor: url(./images/pointer.png), auto;
+}
 
-/* For Tablets */
-/* @media screen and (max-width: 992px) {
-  .container {
-    max-width: 720px;
-  }
+.personal-footer strong {
+  color: var(--active-color);
+}
 
-  nav {
-    border-radius: 25px;
-    margin: 10px;
-  }
+.personal-footer .foot-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
-  .nav-links ul {
-    gap: 30%;
-  }
-
-  .news-input {
-    width: 150px;
-  }
-} */
-
-/* For Large Mobile */
-/* @media screen and (max-width: 768px) {
-  .container {
-    max-width: 540px;
-  }
-
-  .main-nav {
-    flex-direction: column;
-    padding: 16px;
-    gap: 16px;
-  }
-
-  .nav-links ul {
-    gap: 20px;
-  }
-
-  main {
-    margin: 120px 20px 40px;
-  }
-
-  .card {
-    width: 100%;
-    max-width: 400px;
-  }
-} */
-
-/* For Small Mobile */
-/* @media screen and (max-width: 576px) {
-  nav {
-    border-radius: 15px;
-    margin: 8px;
-  }
-
-  .nav-links ul {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .search-bar {
-    flex-direction: column;
-    height: auto;
-    width: 100%;
-  }
-
-  .news-input {
-    width: 100%;
-    margin-bottom: 8px;
-  }
-
-  .search-button {
-    width: 100%;
-  }
-
-  main {
-    margin: 160px 12px 24px;
-  }
-
-  .card {
-    min-height: 350px;
-  }
-
-  .card-header img {
-    height: 160px;
-  }
-} */
-
-/* For Extra Small Devices */
+/* For Mobile devices */
 @media screen and (min-width: 360px) and (max-width: 720px) {
   nav {
     border-radius: 15px;
