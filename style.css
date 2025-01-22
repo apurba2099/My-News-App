@@ -80,11 +80,15 @@ nav {
   cursor: url(./images/pointer.png), auto;
 }
 .nav-links ul {
-  gap: 50%;
+  gap: 40%;
 }
 .nav-links ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 1.2rem;
 }
+
 .hover-links {
   cursor: pointer;
 }
