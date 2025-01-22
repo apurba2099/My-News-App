@@ -180,7 +180,7 @@ main {
 
 /* Media Queries */
 /* For Large Tablets and Small Laptops */
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
   .container {
     max-width: 960px;
   }
@@ -193,10 +193,10 @@ main {
   main {
     margin: 88px 40px;
   }
-}
+} */
 
 /* For Tablets */
-@media screen and (max-width: 992px) {
+/* @media screen and (max-width: 992px) {
   .container {
     max-width: 720px;
   }
@@ -213,10 +213,10 @@ main {
   .news-input {
     width: 150px;
   }
-}
+} */
 
 /* For Large Mobile */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .container {
     max-width: 540px;
   }
@@ -239,10 +239,10 @@ main {
     width: 100%;
     max-width: 400px;
   }
-}
+} */
 
 /* For Small Mobile */
-@media screen and (max-width: 576px) {
+/* @media screen and (max-width: 576px) {
   nav {
     border-radius: 15px;
     margin: 8px;
@@ -279,12 +279,29 @@ main {
   .card-header img {
     height: 160px;
   }
-}
+} */
 
 /* For Extra Small Devices */
-@media screen and (max-width: 360px) {
+@media screen and (min-width: 360px) and (max-width: 720px) {
+  nav {
+    border-radius: 15px;
+    margin: 8px;
+  }
+
+  .nav-links ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .news-input {
+    position: relative;
+    top: 4px;
+    margin-bottom: 8px;
+  }
+
   .main-nav {
-    padding: 12px;
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
   }
 
   .my-logo img {
@@ -292,18 +309,16 @@ main {
   }
 
   main {
+    position: relative;
+    top: 110px;
     margin: 140px 8px 16px;
   }
 
   .card {
     min-height: 320px;
+    margin: 12px;
   }
-
-  .card-header img {
-    height: 140px;
-  }
-
   .card-content {
-    padding: 8px;
+    padding: 12px;
   }
 }
