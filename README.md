@@ -65,9 +65,6 @@ A: Yes, feel free to fork the repository and integrate the Guardian API in your 
 ### Q: How do I contribute to this project?
 A: You can contribute by forking the repository and submitting pull requests. Suggestions and improvements are welcome!
 
-### Q: How can I change the theme color for dark mode?
-A: The theme color changes automatically based on the user's device settings. The website will adjust to dark mode if the system preference is set to dark.
-
 ## Feedback
 
 If you have any feedback or suggestions, feel free to open an issue or send a pull request. Your feedback is appreciated!
