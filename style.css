@@ -18,7 +18,7 @@ html {
   --active-color: #7235ff;
 }
 body {
-  background-color: #f4f4f4;
+  /* background-color: #f4f4f4; */
   font-family: "Noticia Text", serif;
   color: var(--primary-text-color);
   font-weight: 700;
