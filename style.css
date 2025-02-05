@@ -215,6 +215,52 @@ main {
   margin: 0 auto;
 }
 
+/* Pagination  */
+.Box-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 16px;
+}
+.Box-pagination .pagination {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 26px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 15px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8.5px);
+  -webkit-backdrop-filter: blur(8.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 12px 18px;
+}
+
+.Box-pagination .pagination ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+.pagination a {
+  font-size: 1.4rem;
+  color: var(--secondary-text-color);
+  padding: 16px;
+  cursor: pointer;
+}
+.pagination a:hover {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 2px;
+  cursor: url(./images/pointer.png), auto;
+}
+.pagination .active {
+  color: var(--active-color);
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 2px;
+}
+
 /* For Mobile devices */
 @media screen and (min-width: 360px) and (max-width: 720px) {
   nav {
@@ -245,14 +291,37 @@ main {
   main {
     position: relative;
     top: 110px;
-    margin: 140px 8px 16px;
+    /* margin: 140px 8px 16px; */
+    margin: 145px 16px;
   }
 
   .card {
     min-height: 320px;
-    margin: 12px;
+    margin: 10px;
   }
   .card-content {
     padding: 12px;
   }
+
+  /* pagination */
+  .Box-pagination {
+    margin: 12px 8px;
+  }
+
+  .Box-pagination .pagination {
+    width: 100%;
+    max-width: 400px;
+    gap: 12px;
+    padding: 8px 12px;
+  }
+
+  .pagination a {
+    font-size: 1.2rem;
+    padding: 8px;
+  }
+
+  /* footer  */
+  /* .personal-footer {
+    margin-top: 40px;
+  } */
 }
