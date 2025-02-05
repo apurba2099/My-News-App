@@ -9,7 +9,6 @@ Here's the updated README with the new demo link:
 ## API Reference
 
 - **API Endpoint**: [https://content.guardianapis.com/search](https://content.guardianapis.com/search?)
-- **API Key**: `227825cb-d5fc-41dc-a2f0-8b943cc85dc3`
 - **Source**: [guardianapis.com](https://guardianapis.com)
 
 ## Description
