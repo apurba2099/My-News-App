@@ -1,4 +1,4 @@
-Here's a sample README file for your GitHub project:
+Here's the updated README with the new demo link:
 
 ---
 
@@ -19,7 +19,7 @@ Daily-Orbit aggregates and displays the latest news articles based on various ca
 ## Demo
 
 Check out the live demo of the website at:  
-[https://apurba2099.github.io/My-News-App/](https://apurba2099.github.io/My-News-App/)
+[https://dailyorbit.netlify.app/](https://dailyorbit.netlify.app/)
 
 ## Documentation
 
@@ -52,7 +52,6 @@ The project uses an API key that needs to be added for the Guardian API:
 - **Real-time News Updates**: Fetch and display the latest articles from various categories.
 - **Search Functionality**: Allows users to search for specific news articles.
 - **Responsive Design**: The website adapts to different screen sizes, including mobile and tablet devices.
-- **Dark Mode Support**: Detects system preferences for dark mode and adjusts the theme accordingly.
 - **Pagination**: Supports pagination to view multiple pages of news articles.
 
 ## FAQ
@@ -75,4 +74,4 @@ If you have any feedback or suggestions, feel free to open an issue or send a pu
 
 ---
 
-Let me know if you need any adjustments!
+Now, your demo link points to [https://dailyorbit.netlify.app/](https://dailyorbit.netlify.app/). Let me know if you need anything else!
