@@ -73,5 +73,3 @@ A: The theme color changes automatically based on the user's device settings. Th
 If you have any feedback or suggestions, feel free to open an issue or send a pull request. Your feedback is appreciated!
 
 ---
-
-Now, your demo link points to [https://dailyorbit.netlify.app/](https://dailyorbit.netlify.app/). Let me know if you need anything else!
