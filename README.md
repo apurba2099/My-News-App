@@ -1,4 +1,4 @@
-Here's the updated README with the new demo link:
+
 
 ---
 
@@ -41,10 +41,8 @@ To run this project locally, follow these steps:
 
 The project uses an API key that needs to be added for the Guardian API:
 
-1. Sign up at [guardianapis.com](https://guardianapis.com) to get your API key.
+1. Sign up at [theguardian.com](https://open-platform.theguardian.com/) to get your API key.
 2. Add the API key in the script where it's required.
-
-**Note**: The API key is already provided in the current setup (`227825cb-d5fc-41dc-a2f0-8b943cc85dc3`).
 
 ## Features
 
