@@ -54,7 +54,7 @@ The project uses an API key that needs to be added for the Guardian API:
 ## FAQ
 
 ### Q: How do I fetch the latest news?
-A: The website fetches news through the [Guardian API](https://content.guardianapis.com/search?), and it updates the articles dynamically on the homepage.
+A: The website fetches news through the [theguardian.com](https://open-platform.theguardian.com/), and it updates the articles dynamically on the homepage.
 
 ### Q: Can I use this project in my own app?
 A: Yes, feel free to fork the repository and integrate the Guardian API in your own projects. Remember to use your own API key.
