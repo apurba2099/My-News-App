@@ -9,7 +9,7 @@ Here's the updated README with the new demo link:
 ## API Reference
 
 - **API Endpoint**: [https://content.guardianapis.com/search](https://content.guardianapis.com/search?)
-- **Source**: [guardianapis.com](https://guardianapis.com)
+- **Source**: [theguardian.com](https://open-platform.theguardian.com/)
 
 ## Description
 
