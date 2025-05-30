@@ -1,6 +1,6 @@
 "use strict";
 // API configuration
-const API_KEY = "227825cb-d5fc-41dc-a2f0-8b943cc85dc3";
+const API_KEY = "4f5354d9-bf3f-4413-a451-7a7614e4f281";
 const BASE_URL = "https://content.guardianapis.com/search";
 
 // Async function to fetch news
