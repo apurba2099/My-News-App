@@ -1,4 +1,4 @@
-Here's the updated README with the new demo link:
+
 
 ---
 
@@ -9,7 +9,7 @@ Here's the updated README with the new demo link:
 ## API Reference
 
 - **API Endpoint**: [https://content.guardianapis.com/search](https://content.guardianapis.com/search?)
-- **Source**: [guardianapis.com](https://guardianapis.com)
+- **Source**: [theguardian.com](https://open-platform.theguardian.com/)
 
 ## Description
 
@@ -41,10 +41,8 @@ To run this project locally, follow these steps:
 
 The project uses an API key that needs to be added for the Guardian API:
 
-1. Sign up at [guardianapis.com](https://guardianapis.com) to get your API key.
+1. Sign up at [theguardian.com](https://open-platform.theguardian.com/) to get your API key.
 2. Add the API key in the script where it's required.
-
-**Note**: The API key is already provided in the current setup (`227825cb-d5fc-41dc-a2f0-8b943cc85dc3`).
 
 ## Features
 
@@ -56,7 +54,7 @@ The project uses an API key that needs to be added for the Guardian API:
 ## FAQ
 
 ### Q: How do I fetch the latest news?
-A: The website fetches news through the [Guardian API](https://content.guardianapis.com/search?), and it updates the articles dynamically on the homepage.
+A: The website fetches news through the [theguardian.com](https://open-platform.theguardian.com/), and it updates the articles dynamically on the homepage.
 
 ### Q: Can I use this project in my own app?
 A: Yes, feel free to fork the repository and integrate the Guardian API in your own projects. Remember to use your own API key.
